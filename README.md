@@ -37,12 +37,13 @@ HOST: stackoverflow.com\
 ответ: С помощью whois определяем провайдера и пул адресов, из которого выделен нам адрес
  
 ![rt](https://github.com/EVolgina/devops-netology13/blob/main/rt.PNG)
+ 
 С помощью whois -h whois.radb.net 178.47.241.245 определяем AS провайдера – #12389
  
 ![rt1](https://github.com/EVolgina/devops-netology13/blob/main/rt12389.PNG)
 # Шаг 5. Через какие сети проходит пакет, отправленный с вашего компьютера на адрес 8.8.8.8? Через какие AS? Воспользуйтесь утилитой traceroute.
-Дополнительно к ключам An добавлен ключ I, чтобы фаерволл не блокировал UDP пакеты (используются ICMP-пакеты вместо UDP-пакетов).\ 
-Вывод команды $ sudo traceroute -IAn 8.8.8.8\
+Дополнительно к ключам An добавлен ключ I, чтобы фаерволл не блокировал UDP пакеты (используются ICMP-пакеты вместо UDP-пакетов).
+Вывод команды $ sudo traceroute -IAn 8.8.8.8
  
 ![tracert](https://github.com/EVolgina/devops-netology13/blob/main/trasert.PNG)
 установила и запустила
