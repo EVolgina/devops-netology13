@@ -7,7 +7,7 @@ GET /questions HTTP/1.0\
 HOST: stackoverflow.com\
 [press enter]\
 [press enter]\
-![telnet]()
+![telnet](https://github.com/EVolgina/devops-netology13/blob/main/telnet.PNG)
 ![telnet1]()
 В ответе укажите полученный HTTP-код и поясните, что он означает.
 ответ: Код 301 указывает на то, что страница перемещена постоянно на location: https://stackoverflow.com/questions
