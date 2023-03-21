@@ -56,7 +56,8 @@ HOST: stackoverflow.com\
 $ dig +short NS dns.google  
  
 ![NS](https://github.com/EVolgina/devops-netology13/blob/main/dig.PNG)
-$ dig +short A dns.google
+
+ $ dig +short A dns.google
  
 ![A](https://github.com/EVolgina/devops-netology13/blob/main/A.PNG)
 # Шаг 8. Проверьте PTR записи для IP-адресов из задания 7. Какое доменное имя привязано к IP? Воспользуйтесь утилитой di
@@ -64,6 +65,7 @@ $ dig +short A dns.google
  dig -x 8.8.8.8 
  
  ![digx](https://github.com/EVolgina/devops-netology13/blob/main/digx.PNG)
+
  dig -x 8.8.4.4
  
 ![dig2](https://github.com/EVolgina/devops-netology13/blob/main/dig2.PNG)
