@@ -37,7 +37,6 @@ HOST: stackoverflow.com\
 ответ: С помощью whois определяем провайдера и пул адресов, из которого выделен нам адрес
  
 ![rt](https://github.com/EVolgina/devops-netology13/blob/main/rt.PNG)
- 
 С помощью whois -h whois.radb.net 178.47.241.245 определяем AS провайдера – #12389
  
 ![rt1](https://github.com/EVolgina/devops-netology13/blob/main/rt12389.PNG)
@@ -51,7 +50,8 @@ HOST: stackoverflow.com\
 Вывод команды $ mtr 8.8.8.8 -znrc 1
  
 ![mtr](https://github.com/EVolgina/devops-netology13/blob/main/mtr.PNG)
-Ответ:На 10 наибольшая задержка
+
+ Ответ:На 10 наибольшая задержка
 # Шаг 7. Какие DNS-сервера отвечают за доменное имя dns.google? Какие A-записи? Воспользуйтесь утилитой dig.
 Вывод DNS-серверов и А-записей с помощью команд
 $ dig +short NS dns.google  
